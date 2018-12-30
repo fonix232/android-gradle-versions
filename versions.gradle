@@ -182,7 +182,7 @@ deps.fonix232 = fonix232
 
 def utils = [:]
 utils.timber = "com.jakewharton.timber:timber:4.7.1"
-def.utils = utils
+deps.utils = utils
 
 ext.deps = deps
 //endregion
