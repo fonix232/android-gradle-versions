@@ -16,6 +16,7 @@ versions.navigation = "1.0.0-alpha09"
 versions.paging = "2.0.0-rc01"
 versions.room = "2.0.0-rc01"
 
+versions.glide = "4.8.0"
 versions.koin = "1.0.2"
 versions.retrofit = "2.5.0"
 versions.objectbox = "2.2.0"
@@ -138,7 +139,7 @@ room.rxjava2 = "androidx.room:room-rxjava2:$versions.room"
 room.testing = "androidx.room:room-testing:$versions.room"
 room.db = "androidx.sqlite:sqlite:$versions.room"
 room.db_framework = "androidx.sqlite:sqlite-framework:$versions.room"
-androidx.persistence = room
+androidx.room = room
 
 deps.androidx = androidx
 
@@ -171,7 +172,8 @@ retrofit.coroutines = "com.jakewharton.retrofit:retrofit2-kotlin-coroutines-adap
 deps.retrofit = retrofit
 
 def glide = [:]
-
+glide.runtime = "com.github.bumptech.glide:glide:$versions.glide"
+glide.compiler = "com.github.bumptech.glide:compiler:$versions.glide"
 deps.glide = glide
 
 def fonix232 = [:]
