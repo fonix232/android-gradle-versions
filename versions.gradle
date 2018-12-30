@@ -167,6 +167,7 @@ retrofit.protobuf = "com.squareup.retrofit2:converter-protobuf:$versions.retrofi
 retrofit.wire = "com.squareup.retrofit2:converter-wire:$versions.retrofit"
 retrofit.simplexml = "com.squareup.retrofit2:converter-simplexml:$versions.retrofit"
 retrofit.scalars = "com.squareup.retrofit2:converter-scalars:$versions.retrofit"
+retrofit.coroutines = "com.jakewharton.retrofit:retrofit2-kotlin-coroutines-adapter:0.9.2"
 deps.retrofit = retrofit
 
 def glide = [:]
