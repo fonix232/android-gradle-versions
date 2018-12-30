@@ -30,6 +30,7 @@ def gradle = [:]
 gradle.build = "com.android.tools.build:gradle:$versions.build_gradle"
 gradle.kotlin = "org.jetbrains.kotlin:kotlin-gradle-plugin:$versions.kotlin"
 gradle.objectbox = "io.objectbox:objectbox-gradle-plugin:$versions.objectbox"
+gradle.maven = "com.github.dcendents:android-maven-gradle-plugin:2.1"
 gradle.navigation = "android.arch.navigation:navigation-safe-args-gradle-plugin:$versions.navigation"
 deps.gradle = gradle
 
@@ -184,13 +185,11 @@ def plugs = [:]
 
 plugs.android_app = "com.android.application"
 plugs.android_lib = "com.android.library"
-
 plugs.kotlin_android = "kotlin-android"
 plugs.kotlin_android_ext = "kotlin-android-extensions"
 plugs.kotlin_kapt = "kotlin-kapt"
-
+plugs.maven = "com.github.dcendents.android-maven"
 plugs.navigation = "androidx.navigation.safeargs"
-
 plugs.objectbox = "io.objectbox"
 
 ext.plugs = plugs
