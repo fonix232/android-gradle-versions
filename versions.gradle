@@ -178,6 +178,10 @@ def fonix232 = [:]
 fonix232.common = "com.github.fonix232:android-common:$versions.fonix232_common"
 deps.fonix232 = fonix232
 
+def utils = [:]
+utils.timber = "com.jakewharton.timber:timber:4.7.1"
+def.utils = utils
+
 ext.deps = deps
 //endregion
 
