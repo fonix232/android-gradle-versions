@@ -21,7 +21,7 @@ versions.koin = "1.0.2"
 versions.retrofit = "2.5.0"
 versions.objectbox = "2.2.0"
 
-versions.fonix232_common = "0.1-beta01"
+versions.fonix232_common = "0.1-beta02"
 //endregion
 
 //region Dependencies
