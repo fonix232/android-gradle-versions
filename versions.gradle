@@ -5,21 +5,31 @@ ext.versions = [:]
 //region Versions
 def versions = [:]
 
-versions.kotlin = "1.3.10"
 versions.build_gradle = '3.4.0-alpha10'
-
+versions.kotlin = "1.3.10"
 versions.coroutines = "1.0.1"
 
+// Android Architecture Component
 versions.support_library = "28.0.0"
 versions.lifecycle = "2.0.0-rc01"
 versions.navigation = "1.0.0-alpha09"
 versions.paging = "2.0.0-rc01"
 versions.room = "2.0.0-rc01"
 
+// Utilities
 versions.glide = "4.8.0"
 versions.koin = "1.0.2"
 versions.retrofit = "2.5.0"
 versions.objectbox = "2.2.0"
+
+// Testing
+versions.junit = "4.12"
+versions.espresso = "3.1.0-alpha4"
+
+// Mockito
+versions.mockito = "2.21.0"
+versions.mockito_all = "1.10.19"
+versions.mockito_android = "2.22.0"
 
 versions.fonix232_common = "0.1-beta04"
 //endregion
@@ -183,6 +193,20 @@ deps.fonix232 = fonix232
 def utils = [:]
 utils.timber = "com.jakewharton.timber:timber:4.7.1"
 deps.utils = utils
+
+def testing = [:]
+testing.junit = "junit:junit:$versions.junit"
+
+def mockito = [:]
+mockito.core = "org.mockito:mockito-core:$versions.mockito"
+mockito.all = "org.mockito:mockito-all:$versions.mockito_all"
+mockito.android = "org.mockito:mockito-android:$versions.mockito_android"
+mockito.inline = "org.mockito:mockito-inline:$versions.mockito"
+mockito.kotlin = "com.nhaarman.mockitokotlin2:mockito-kotlin:2.0.0"
+testing.mockito = mockito
+
+deps.testing = testing
+
 
 ext.deps = deps
 //endregion
