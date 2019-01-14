@@ -183,6 +183,7 @@ deps.okhttp = okhttp
 
 def retrofit = [:]
 retrofit.library = "com.squareup.retrofit2:retrofit:$versions.retrofit"
+
 retrofit.gson = "com.squareup.retrofit2:converter-gson:$versions.retrofit"
 retrofit.jackson = "com.squareup.retrofit2:converter-jackson:$versions.retrofit"
 retrofit.moshi = "com.squareup.retrofit2:converter-moshi:$versions.retrofit"
@@ -190,6 +191,10 @@ retrofit.protobuf = "com.squareup.retrofit2:converter-protobuf:$versions.retrofi
 retrofit.wire = "com.squareup.retrofit2:converter-wire:$versions.retrofit"
 retrofit.simplexml = "com.squareup.retrofit2:converter-simplexml:$versions.retrofit"
 retrofit.scalars = "com.squareup.retrofit2:converter-scalars:$versions.retrofit"
+
+retrofit.rxjava = "com.squareup.retrofit2:adapter-rxjava:$versions.retrofit"
+retrofit.rxjava2 = "com.squareup.retrofit2:adapter-rxjava2:$versions.retrofit"
+
 retrofit.coroutines = "com.jakewharton.retrofit:retrofit2-kotlin-coroutines-adapter:0.9.2"
 retrofit.mock = "com.squareup.retrofit2:retrofit-mock:$versions.retrofit"
 deps.retrofit = retrofit
