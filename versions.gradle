@@ -20,7 +20,7 @@ versions.room = "2.0.0-rc01"
 versions.glide = "4.8.0"
 versions.koin = "1.0.2"
 versions.retrofit = "2.5.0"
-versions.objectbox = "2.2.0"
+versions.objectbox = "2.3.1"
 versions.okhttp = "3.11.0"
 versions.mockwebserver = "3.8.1"
 
