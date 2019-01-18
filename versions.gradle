@@ -37,7 +37,7 @@ versions.mockito_android = "2.22.0"
 versions.rxjava = "2.2.5"
 versions.rxandroid = "2.1.0"
 
-versions.fonix232_common = "0.1-beta04"
+versions.fonix232_common = "master-SNAPSHOT"
 //endregion
 
 //region Dependencies
