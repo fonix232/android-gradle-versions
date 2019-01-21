@@ -6,8 +6,8 @@ ext.versions = [:]
 def versions = [:]
 
 versions.build_gradle = '3.5.0-alpha01'
-versions.kotlin = "1.3.10"
-versions.coroutines = "1.0.1"
+versions.kotlin = "1.3.11"
+versions.coroutines = "1.1.0"
 
 // Android Architecture Component
 versions.support_library = "28.0.0"
@@ -60,6 +60,7 @@ kotlin.stdlib_7 = "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$versions.kotlin"
 kotlin.stdlib_8 = "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$versions.kotlin"
 kotlin.coroutines = "org.jetbrains.kotlinx:kotlinx-coroutines-core:$versions.coroutines"
 kotlin.coroutines_android = "org.jetbrains.kotlinx:kotlinx-coroutines-android:$versions.coroutines"
+kotlin.coroutines_play = "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:$versions.coroutines"
 kotlin.allopen = "org.jetbrains.kotlin:kotlin-allopen:$versions.kotlin"
 kotlin.test = "org.jetbrains.kotlin:kotlin-test-junit:$versions.kotlin"
 deps.kotlin = kotlin
